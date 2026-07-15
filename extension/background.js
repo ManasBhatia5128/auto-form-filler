@@ -1,5 +1,5 @@
-// Configuration (Hardcoded for extension from .env)
-const AZURE_OPENAI_API_KEY = "BO5al70Rp6ZuEVnBfvJpu2rFHPqm3IoHLfRmOeza3p7AYL9ZmwPbJQQJ99CEACYeBjFXJ3w3AAAAACOGC77q";
+// Configuration (Read from environment if using a bundler, or leave empty if unused)
+const AZURE_OPENAI_API_KEY = process.env.AZURE_OPENAI_API_KEY || "";
 const AZURE_OPENAI_ENDPOINT = "https://humara-pandit-ai.cognitiveservices.azure.com/";
 const AZURE_OPENAI_DEPLOYMENT = "gpt-5.4";
 const AZURE_OPENAI_API_VERSION = "2024-12-01-preview";
