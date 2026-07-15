@@ -1,0 +1,58 @@
+{
+  "college_id": {
+    "actual_value": ["23104070"],
+    "backup_keywords": ["college id", "student id", "sid", "university roll number", "roll number", "cid", "registration number", "enrollment number"]
+  },
+  "email": {
+    "actual_value": ["manasbhatia724@gmail.com"],
+    "backup_keywords": ["personal email", "college email", "email address", "email id", "email", "mail id", "mailbox"]
+  },
+  "first_name": {
+    "actual_value": ["Manas"],
+    "backup_keywords": ["first name", "given name", "forename", "fname"]
+  },
+  "last_name": {
+    "actual_value": ["Bhatia"],
+    "backup_keywords": ["last name", "surname", "family name", "lname"]
+  },
+  "name": {
+    "actual_value": ["Manas Bhatia"],
+    "backup_keywords": ["name", "full name", "display name", "complete name", "student name"]
+  },
+  "branch": {
+    "actual_value": ["EE", "Electrical", "Electrical Engineering", "EEE"],
+    "backup_keywords": ["branch", "electrical", "electrical engineering", "eee", "ee", "department", "stream", "major", "specialization"]
+  },
+  "degree": {
+    "actual_value": ["B.Tech", "BTech", "Bachelor of Technology", "B.E.", "BE", "Undergraduate", "UG"],
+    "backup_keywords": ["degree", "program", "course", "course level", "qualification"]
+  },
+  "year": {
+    "actual_value": ["2nd Year", "Second Year", "2nd", "Sophomore", "II"],
+    "backup_keywords": ["year", "current year", "academic year", "year of study"]
+  },
+  "gender": {
+    "actual_value": ["Male", "M", "Boy", "Man"],
+    "backup_keywords": ["gender", "sex", "male", "boy", "man"]
+  },
+  "aadhar_number": {
+    "actual_value": ["[Aadhaar Redacted]"],
+    "backup_keywords": ["aadhar number", "aadhar card", "aadhar", "aadhaar", "aadhaar card", "uid", "unique identification number", "uidai"]
+  },
+  "phone_number": {
+    "actual_value": ["8708986724"],
+    "backup_keywords": ["phone number", "mobile number", "contact number", "phone", "mobile", "contact", "tel", "cell number"]
+  },
+  "ifsc_code": {
+    "actual_value": ["SBIN0004052"],
+    "backup_keywords": ["ifsc code", "ifsc", "bank code", "branch code", "indian financial system code", "rtgs code", "neft code"]
+  },
+  "fathers_name": {
+    "actual_value": ["Ravi Bhatia"],
+    "backup_keywords": ["father's name", "fathers name", "father name", "paternal name", "parent name"]
+  },
+  "year_of_graduation": {
+    "actual_value": ["2027", "27", "Class of 2027"],
+    "backup_keywords": ["year of graduation", "year of passing", "graduation year", "passing year", "batch year", "batch", "grad year"]
+  }
+}

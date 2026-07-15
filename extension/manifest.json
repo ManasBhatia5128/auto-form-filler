@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Semantic Auto-Filler",
+  "version": "1.0",
+  "description": "Auto-fills Google Forms using semantic matching powered by Azure OpenAI.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://humara-pandit-ai.cognitiveservices.azure.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Semantic Auto-Filler"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
