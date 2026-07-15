@@ -1,4 +1,5 @@
 // Configuration (Hardcoded for local extension since Chrome extensions don't have process.env)
+import { AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_DEPLOYMENT, AZURE_OPENAI_API_VERSION } from './secrets.js';
 
 const TARGET_URI = `${AZURE_OPENAI_ENDPOINT.replace(/\/$/, '')}/openai/deployments/${AZURE_OPENAI_DEPLOYMENT}/chat/completions?api-version=${AZURE_OPENAI_API_VERSION}`;
 
