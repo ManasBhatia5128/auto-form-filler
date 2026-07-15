@@ -28,7 +28,7 @@
     "backup_keywords": ["degree", "program", "course", "course level", "qualification"]
   },
   "year": {
-    "actual_value": ["2nd Year", "Second Year", "2nd", "Sophomore", "II"],
+    "actual_value": ["4th Year", "Fourth Year", "4th", "Senior", "IV"],
     "backup_keywords": ["year", "current year", "academic year", "year of study"]
   },
   "gender": {
@@ -54,5 +54,13 @@
   "year_of_graduation": {
     "actual_value": ["2027", "27", "Class of 2027"],
     "backup_keywords": ["year of graduation", "year of passing", "graduation year", "passing year", "batch year", "batch", "grad year"]
+  },
+  "transaction_id": {
+    "actual_value": ["12345sample67890"],
+    "backup_keywords": ["transaction id", "trx id", "tx id", "payment id", "reference number", "ref number", "receipt number", "transaction number", "utr number", "utr"]
+  },
+  "hostel": {
+    "actual_value": ["Kurukshetra", "kururshetra"],
+    "backup_keywords": ["hostel", "hostel name", "hall", "hall of residence", "residence", "dorm", "dormitory", "accommodation"]
   }
 }

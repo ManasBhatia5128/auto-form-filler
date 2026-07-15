@@ -128,14 +128,17 @@ async function fillField(container, value) {
   // 3. Dropdowns
   const dropdown = container.querySelector('[role="listbox"]');
   if (dropdown) {
-    // Open the dropdown menu
+    // Google Forms often requires full mouse/pointer events to open dropdowns
+    dropdown.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, cancelable: true, view: window }));
+    dropdown.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, cancelable: true, view: window }));
+    dropdown.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, cancelable: true, view: window }));
+    dropdown.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true, view: window }));
     dropdown.click();
     
     // Wait for DOM to render and animate the menu
     await new Promise(r => setTimeout(r, 600));
     
-    // Google forms attaches the open menu to the body, usually in an .OA0qNb container
-    // We want to find the one that is currently visible.
+    // Find visible options in the body
     let menuItems = [];
     const activePopups = document.querySelectorAll('.OA0qNb:not([style*="display: none"]), .exportSelectPopup');
     
@@ -164,7 +167,7 @@ async function fillField(container, value) {
       // Check against all possible values provided in the JSON
       for (const val of valuesToMatch) {
         const valLower = val.toString().toLowerCase();
-        // Exact match is best, but we allow substring match if the option text contains our value (e.g., "Electrical Engineering" contains "Electrical")
+        // Exact match is best, but we allow substring match
         if (itemLower === valLower || itemLower.includes(valLower)) {
           matched = true;
           break;
@@ -173,11 +176,15 @@ async function fillField(container, value) {
 
       if (matched) {
         // Dispatch full pointer sequence for Google's JS
+        item.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, cancelable: true, view: window }));
         item.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, cancelable: true, view: window }));
+        item.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, cancelable: true, view: window }));
         item.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true, view: window }));
         item.click();
         
         success = true;
+        // Wait a moment for the menu to visually close before moving to the next field
+        await new Promise(r => setTimeout(r, 400));
         break;
       }
     }
@@ -185,6 +192,7 @@ async function fillField(container, value) {
     if (!success) {
       // Close dropdown if no match found
       document.body.click();
+      await new Promise(r => setTimeout(r, 300));
     }
     return success;
   }

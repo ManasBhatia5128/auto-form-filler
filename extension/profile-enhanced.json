@@ -1,0 +1,397 @@
+{
+  "college_id": {
+    "actual_value": [
+      "23104070"
+    ],
+    "backup_keywords": [
+      "college id",
+      "student id",
+      "sid",
+      "university roll number",
+      "roll number",
+      "cid",
+      "registration number",
+      "enrollment number",
+      "college identifier",
+      "institutional id",
+      "campus id",
+      "learner id",
+      "matriculation number",
+      "admission number",
+      "candidate number",
+      "university id",
+      "college roll no",
+      "student number"
+    ]
+  },
+  "email": {
+    "actual_value": [
+      "manasbhatia724@gmail.com"
+    ],
+    "backup_keywords": [
+      "personal email",
+      "college email",
+      "email address",
+      "email id",
+      "email",
+      "mail id",
+      "mailbox",
+      "e-mail",
+      "primary email",
+      "contact email",
+      "electronic mail",
+      "user email",
+      "registered email",
+      "login email",
+      "communication email",
+      "alternate email",
+      "applicant email"
+    ]
+  },
+  "first_name": {
+    "actual_value": [
+      "Manas"
+    ],
+    "backup_keywords": [
+      "first name",
+      "given name",
+      "forename",
+      "fname",
+      "personal name",
+      "given",
+      "first",
+      "name",
+      "full first name",
+      "legal first name",
+      "preferred first name",
+      "applicant first name",
+      "employee first name",
+      "student first name"
+    ]
+  },
+  "last_name": {
+    "actual_value": [
+      "Bhatia"
+    ],
+    "backup_keywords": [
+      "last name",
+      "surname",
+      "family name",
+      "lname",
+      "second name",
+      "given surname",
+      "family surname",
+      "last",
+      "surname name",
+      "legal surname",
+      "current surname",
+      "maiden name",
+      "married name",
+      "full surname"
+    ]
+  },
+  "name": {
+    "actual_value": [
+      "Manas Bhatia"
+    ],
+    "backup_keywords": [
+      "name",
+      "full name",
+      "display name",
+      "complete name",
+      "student name",
+      "applicant name",
+      "candidate name",
+      "person name",
+      "legal name",
+      "official name",
+      "registered name",
+      "individual name",
+      "user name",
+      "profile name",
+      "account holder name"
+    ]
+  },
+  "branch": {
+    "actual_value": [
+      "EE",
+      "Electrical",
+      "Electrical Engineering",
+      "EEE"
+    ],
+    "backup_keywords": [
+      "branch",
+      "electrical",
+      "electrical engineering",
+      "eee",
+      "ee",
+      "department",
+      "stream",
+      "major",
+      "specialization",
+      "electronics and electrical engineering",
+      "electrical engg",
+      "electrical dept",
+      "power engineering",
+      "electrical sciences",
+      "electrical and electronics",
+      "school of electrical engineering",
+      "faculty of electrical engineering",
+      "electrical engineering department",
+      "electrical branch"
+    ]
+  },
+  "degree": {
+    "actual_value": [
+      "B.Tech",
+      "BTech",
+      "Bachelor of Technology",
+      "B.E.",
+      "BE",
+      "Undergraduate",
+      "UG"
+    ],
+    "backup_keywords": [
+      "degree",
+      "program",
+      "course",
+      "course level",
+      "qualification",
+      "bachelor of engineering",
+      "bachelors in technology",
+      "bachelors in engineering",
+      "engineering degree",
+      "technology degree",
+      "graduate degree",
+      "academic degree",
+      "degree title",
+      "education level",
+      "level of study"
+    ]
+  },
+  "year": {
+    "actual_value": [
+      "4th Year",
+      "Fourth Year",
+      "4th",
+      "Senior",
+      "IV"
+    ],
+    "backup_keywords": [
+      "year",
+      "current year",
+      "academic year",
+      "year of study",
+      "year 4",
+      "fourth",
+      "4",
+      "4th year standing",
+      "senior year",
+      "final year",
+      "year iv",
+      "level 4",
+      "fourth-year",
+      "class iv"
+    ]
+  },
+  "gender": {
+    "actual_value": [
+      "Male",
+      "M",
+      "Boy",
+      "Man"
+    ],
+    "backup_keywords": [
+      "gender",
+      "sex",
+      "male",
+      "boy",
+      "man",
+      "masculine",
+      "gentleman",
+      "guy",
+      "male gender",
+      "male sex",
+      "cis male",
+      "cisgender male",
+      "he",
+      "he/him",
+      "him"
+    ]
+  },
+  "aadhar_number": {
+    "actual_value": [
+      "849341494197"
+    ],
+    "backup_keywords": [
+      "aadhar number",
+      "aadhar card",
+      "aadhar",
+      "aadhaar",
+      "aadhaar card",
+      "uid",
+      "unique identification number",
+      "uidai",
+      "aadhaar number",
+      "aadhaar no",
+      "aadhar no",
+      "aadhaar id",
+      "aadhar id",
+      "aadhaar card number",
+      "aadhar card number",
+      "aadhaar uid",
+      "resident id",
+      "national id number"
+    ]
+  },
+  "phone_number": {
+    "actual_value": [
+      "8708986724"
+    ],
+    "backup_keywords": [
+      "phone number",
+      "mobile number",
+      "contact number",
+      "phone",
+      "mobile",
+      "contact",
+      "tel",
+      "cell number",
+      "telephone number",
+      "cell phone number",
+      "mobile phone number",
+      "contact phone",
+      "telephone",
+      "phone no",
+      "mobile no",
+      "contact no",
+      "cell",
+      "primary phone"
+    ]
+  },
+  "ifsc_code": {
+    "actual_value": [
+      "SBIN0004052"
+    ],
+    "backup_keywords": [
+      "ifsc code",
+      "ifsc",
+      "bank code",
+      "branch code",
+      "indian financial system code",
+      "rtgs code",
+      "neft code",
+      "ifsc number",
+      "ifs code",
+      "bank ifsc",
+      "branch ifsc",
+      "ifsc identifier",
+      "bank routing code",
+      "electronic payment code",
+      "fund transfer code",
+      "branch banking code",
+      "ifsc details"
+    ]
+  },
+  "fathers_name": {
+    "actual_value": [
+      "Ravi Bhatia"
+    ],
+    "backup_keywords": [
+      "father's name",
+      "fathers name",
+      "father name",
+      "paternal name",
+      "parent name",
+      "name of father",
+      "father full name",
+      "full name of father",
+      "dad name",
+      "dad's name",
+      "father guardian name",
+      "father's full name",
+      "surname of father",
+      "father given name",
+      "father last name"
+    ]
+  },
+  "year_of_graduation": {
+    "actual_value": [
+      "2027",
+      "27",
+      "Class of 2027"
+    ],
+    "backup_keywords": [
+      "year of graduation",
+      "year of passing",
+      "graduation year",
+      "passing year",
+      "batch year",
+      "batch",
+      "grad year",
+      "graduation date",
+      "expected graduation year",
+      "expected grad year",
+      "class year",
+      "degree year",
+      "completion year",
+      "year completed",
+      "anticipated graduation year",
+      "graduating class",
+      "class of"
+    ]
+  },
+  "transaction_id": {
+    "actual_value": [
+      "12345sample67890"
+    ],
+    "backup_keywords": [
+      "transaction id",
+      "trx id",
+      "tx id",
+      "payment id",
+      "reference number",
+      "ref number",
+      "receipt number",
+      "transaction number",
+      "utr number",
+      "utr",
+      "transaction reference",
+      "payment reference",
+      "transaction reference number",
+      "payment reference number",
+      "transfer reference",
+      "transfer id",
+      "confirmation number",
+      "confirmation id",
+      "order id",
+      "txn id"
+    ]
+  },
+  "hostel": {
+    "actual_value": [
+      "Kurukshetra",
+      "kururshetra"
+    ],
+    "backup_keywords": [
+      "hostel",
+      "hostel name",
+      "hall",
+      "hall of residence",
+      "residence",
+      "dorm",
+      "dormitory",
+      "accommodation",
+      "kurukshetra hostel",
+      "kurukshetra hall",
+      "kurukshetra residence",
+      "kurukshetra dormitory",
+      "kurukshetra accommodation",
+      "kurukshetra university hostel",
+      "kurukshetra uni hostel",
+      "kurukshetra campus hostel",
+      "kurukshetra dorm",
+      "kururshetra hostel"
+    ]
+  }
+}
